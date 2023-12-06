@@ -1,0 +1,35 @@
+#el-head {
+    background-color:seagreen;
+    font-family: sans-serif;
+    width: 200em;
+    height:100px;
+}
+
+.tx-head {
+    font-size: 18px;
+    font-weight: 900;
+    color: whitesmoke;
+    height: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.tx-subtitle {
+    font-size: 14px;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+
+#main-form {
+    display:inline-block;
+    width: 200em;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#activityBook {
+    margin-left: 20px;
+    margin-top: 40px;
+}

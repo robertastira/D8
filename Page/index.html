@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link rel="stylesheet" href="/Assets/style.css" />
+    <link rel="stylesheet" href="/Assets/reset.css" />
+  </head>
+  <body>
+    <div id="el-head">
+      <h1 class="tx-head">Questa è la mia lista delle TASKS</h1>
+      <h2 class="tx-subtitle">Cose da fare, in questa giornata:</h2>
+    </div>
+
+    <div>
+      <form id="main-form">
+        <div>
+          <label for="toDoList">Descrivi la tua attività!</label>
+          <input
+            id="toDoList"
+            type="text"
+            placeholder="Fare la spesa ecc"
+            maxlength="40"
+            required
+          />
+        </div>
+        <button>Invia</button>
+        <button type="reset">Ricomincia</button>
+      </form>
+      <section id="activityBook">
+        </section>
+        <script src="/Java/java.js"></script>
+  </body>
+</html>
